@@ -17,4 +17,4 @@ public:
         leftChild = l;
         rightChild = r;
     }
-}
+};
