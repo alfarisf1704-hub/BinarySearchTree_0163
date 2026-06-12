@@ -75,4 +75,6 @@ public:
                 currentNode = currentNode->rightChild;
         }
     }
+
+    // membuat dan mendefinisikan prosedur inorder
 }
