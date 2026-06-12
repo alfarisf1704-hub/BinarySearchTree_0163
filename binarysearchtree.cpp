@@ -27,4 +27,8 @@ public:
     Node *ROOT;
 
     // membuat constructor dan memberi nilai kepada object root
+    BinaryTree()
+    {
+        ROOT = nullptr;
+    }
 }
