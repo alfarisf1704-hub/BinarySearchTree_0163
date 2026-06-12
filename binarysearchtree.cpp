@@ -46,5 +46,10 @@ public:
         search(element, parent, currentNode);
 
         // membuat conditional statement
+        if (parent == nullptr)
+        {
+            ROOT = newNode;
+            return;
+        }
     }
 }
