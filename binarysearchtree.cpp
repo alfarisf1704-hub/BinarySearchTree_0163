@@ -18,3 +18,5 @@ public:
         rightChild = r;
     }
 };
+
+// membuat class BinarTree
