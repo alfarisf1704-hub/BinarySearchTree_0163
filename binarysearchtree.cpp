@@ -41,6 +41,7 @@ public:
         newNode->leftChild = nullptr;
         newNode->rightChild = nullptr;
 
-        Node *
+        Node *parent = nullptr;
+        Node *currentNode = nullptr;
     }
 }
