@@ -9,4 +9,6 @@ public:
     string info;
     Node *leftChid;
     Node *rightChild;
+
+    // membuat constructor untuk class node
 }
