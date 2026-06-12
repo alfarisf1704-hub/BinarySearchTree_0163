@@ -7,11 +7,14 @@ class Node
     // memberi akses modifier serta mendeklarasi variable dan object node
 public:
     string info;
-    Node *leftChid;
+    Node *leftChild;
     Node *rightChild;
 
     // membuat constructor untuk class node
-    Node(string i, Node * 1, Node *r)
-    {
+    Node(string i, Node *l, Node *r)
+    { // memberi nilai parameter ke variabel
+        info = i;
+        leftChild = l;
+        rightChild = r;
     }
 }
